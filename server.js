@@ -13,7 +13,7 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
 const BLOB_FOLDER = 'db';
-const API_MODE = 'crud'; // "read" or "crud"
+const API_MODE = 'read'; // "read" or "crud"
 console.log(`🔧 API Mode: ${API_MODE}`);
 
 // Rate limiting
